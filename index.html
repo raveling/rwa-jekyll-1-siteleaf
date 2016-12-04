@@ -18,18 +18,31 @@ layout: default
     {% endfor %}
   </ul>
   <hr>
-  <h2> Custom Collections </h2>
+  <h2>Custom Collections</h2>
+  <h3>Testimonials</h3>
   <ul class="post-list">
-    {% for post in site.fishermen %}
+    {% for post in site.testimonials %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
+        <h4>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        </h4>
       </li>
     {% endfor %}
   </ul>
-<hr>
+  <hr>
+  <h3>Projects</h3>
+  <ul class="post-list">
+    {% for post in site.projects %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h4>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h4>
+      </li>
+    {% endfor %}
+  </ul>
+  <hr>
 <h2>Display of Categories</h2>
   {% for category in site.categories %}
     <div class="post-list"><a href="/categories/#{{ category | first }}">{{ category | first }}</a></div>

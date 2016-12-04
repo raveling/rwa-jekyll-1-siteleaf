@@ -13,11 +13,28 @@ github_username:  ronald @ github
 # Build settings
 markdown: kramdown
 
+#pretty permalinks
+permalink: pretty
+
 #collections yo
 collections:
-- fishermen
+- projects
+- testimonials
 
 collections:
-  fishermen:
+  projects:
     output: true
-    permalink: /fishermen/:path/
+    permalink: /projects/:path/
+  testimonials:
+    output: true
+    permalink: /testimonials/:path/
+
+defaults:
+  - scope:
+      type: projects
+    values:
+      layout: project
+  - scope:
+      type: testimonials
+    values:
+      layout: testimonial
