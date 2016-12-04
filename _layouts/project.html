@@ -2,14 +2,27 @@
 layout: default
 ---
 
+{% assign testimony = site.testimonials | where: "object-name", page.testifier  | first %}
+
 <p>this is the <strong>project</strong> layout</p>
-<header class="project-header">
-	<h1>{{ page.title }}</h1>
+<header>
+	<h1>{{ page.project-name }}</h1>
 	<h2>{{ page.site-url }}</h2>
-  <h2>Listing Priority: {{ page.listing-priority }}</h2>
+  <p>Listing Priority: {{ page.listing-priority }}</p>
+	<hr>
 </header>
 
-<div class="project-content">
-	<h2>The content:</h2>
+<img src="{{ page.featured-image }}" alt="" />
+
+
+<div>
+	<h2>The Project Content:</h2>
   {{ page.content }}
 </div>
+
+<h2>Testimonials:</h2>
+<p><em>{{ testimony.content }}</em></p>
+<figure>
+	<img src="{{ testimony.portrait-image }}" alt="" />
+	<figcaption><a href="{{ testimony.testifier-url }}">{{ testimony.title }}</a></figcaption>
+</figure>

@@ -1,22 +1,16 @@
 ---
 # layout: post
 collection: projects
-title:  "last gasp"
-date:   2016-12-02
-# categories: sole flounder flathead
-# author: Ronaldoooo
-# meta: Boingo
-featured-image:
+object-name: last-gasp
+title: Last Gasp
+date: 2016-12-02
+featured-image: http://3.bp.blogspot.com/-q7KQrdVHBRU/T1ONuVUUkEI/AAAAAAAAAQA/TTSoXUiIG1s/s1600/Eyeball2.png
 featured: true
 listing-priority: 2
 site-url: https://www.lastgasp.com/
+testifier: jim-jones
 ---
-LAST GASP
 
-LAST GASP
+The Last Gasp Project Content. The Last Gasp Project Content.The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content.
 
-LAST GASP
-
-LAST GASP
-
-LAST GASP
+The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content.
