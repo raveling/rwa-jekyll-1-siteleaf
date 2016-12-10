@@ -2,20 +2,19 @@
 layout: default
 ---
 
-<div class="home">
-<h1 class="page-heading">INDEX HTML</h1>
-<hr>
-<h2> Some Default Posts </h2>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<div>
+  <p><em>(The Index HTML file)</em></p>
+  <h2>Default Post List </h2>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h2>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </li>
+      {% endfor %}
+    </ul>
   <hr>
   <h2>Custom Collections</h2>
   <h3>Testimonials</h3>

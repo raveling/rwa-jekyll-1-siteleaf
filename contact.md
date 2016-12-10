@@ -4,4 +4,4 @@ title: Contact
 permalink: /contact/
 ---
 
-Close Encounterz
+Close encounterz of the turd kind
