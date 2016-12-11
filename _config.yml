@@ -2,9 +2,9 @@
 title: RWA 1
 timezone: UTC
 collections:
-  galleries:
+  gallery:
     title: Galleries
-    output: true
+    output: false
     gallery_images:
     - file: 
       caption: 
