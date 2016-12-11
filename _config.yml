@@ -5,6 +5,9 @@ collections:
   galleries:
     title: Galleries
     output: true
+    gallery_images:
+    - file: 
+      caption: 
   posts:
     title: Posts
     output: true
