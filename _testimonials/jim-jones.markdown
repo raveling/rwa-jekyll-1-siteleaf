@@ -1,8 +1,7 @@
 ---
-# layout: post
+title: jim jones
 collection: testimonials
 object-name: jim-jones
-title: jim jones
 portrait-image: http://www.rutgerhauer.org/plots/setshots/ssup22c.jpg
 testifier-url: https://en.wikipedia.org/wiki/Jim_Jones
 ---

@@ -1,9 +1,8 @@
 ---
-# layout: post
+title: Last Gasp
+date: 2016-12-02 00:00:00 Z
 collection: projects
 object-name: last-gasp
-title: Last Gasp
-date: 2016-12-02
 featured-image: http://3.bp.blogspot.com/-q7KQrdVHBRU/T1ONuVUUkEI/AAAAAAAAAQA/TTSoXUiIG1s/s1600/Eyeball2.png
 featured: true
 listing-priority: 2

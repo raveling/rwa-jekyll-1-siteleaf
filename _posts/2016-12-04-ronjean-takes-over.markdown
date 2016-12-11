@@ -1,12 +1,14 @@
 ---
+title: Ronjean Takes Over
+date: 2016-12-04 00:00:00 Z
+categories:
+- jekyll
+- update
+- Foo
 layout: post
-title:  "Ronjean Takes Over"
-date:   2016-12-04
-categories: jekyll update Foo
 author: Ronaldoooo
 meta: Boingo
 ---
-
 
 Porttitor consectetur a rutrum mi consectetur porta class nullam scelerisque mus ullamcorper dui pretium proin tempus dui metus suspendisse imperdiet a. Suscipit potenti ornare diam a a posuere fermentum parturient nec tortor nunc nisi a phasellus parturient dignissim cursus vestibulum. Ligula condimentum aptent a mi a vestibulum a a dis dui imperdiet parturient ullamcorper adipiscing dui parturient vehicula ultricies duis euismod laoreet a aliquet eu parturient. Accumsan dapibus a ultrices dapibus montes scelerisque vestibulum eleifend adipiscing nam mi a a cum neque fringilla diam suspendisse odio magnis nibh phasellus sem hac consectetur id.
 

@@ -1,40 +1,41 @@
-# Site settings
+---
 title: RWA 1
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: ronald @ twitter
-github_username:  ronald @ github
-
-# Build settings
-markdown: kramdown
-
-#pretty permalinks
-permalink: pretty
-
-#collections yo
+timezone: UTC
 collections:
-- projects
-- testimonials
-
-collections:
+  posts:
+    title: Posts
+    output: true
   projects:
+    title: Projects
     output: true
-    permalink: /projects/:path/
+    permalink: "/projects/:path/"
   testimonials:
+    title: Testimonials
     output: true
-    permalink: /testimonials/:path/
-
+    permalink: "/testimonials/:path/"
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  - scope:
-      type: projects
-    values:
-      layout: project
-  - scope:
-      type: testimonials
-    values:
-      layout: testimonial
+- scope:
+    path: ''
+    type: projects
+  values:
+    layout: project
+- scope:
+    path: ''
+    type: testimonials
+  values:
+    layout: testimonial
+email: your-email@domain.com
+description: 'Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+
+'
+baseurl: ''
+url: http://yourdomain.com
+twitter_username: ronald @ twitter
+github_username: ronald @ github
+markdown: kramdown
+permalink: pretty
