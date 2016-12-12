@@ -3,11 +3,11 @@ title: RWA 1
 timezone: UTC
 collections:
   gallery:
-    title: Galleries
+    title: Gallery
     output: false
     gallery_images:
-    - file:
-      caption:
+    - file: 
+      caption: 
   posts:
     title: Posts
     output: true
@@ -38,8 +38,12 @@ defaults:
     type: gallery
   values:
     gallery:
+<<<<<<< HEAD
       file:
-      caption:
+=======
+      file: 
+>>>>>>> origin/master
+      caption: 
 email: your-email@domain.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
