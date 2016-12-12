@@ -39,7 +39,11 @@ defaults:
   values:
     gallery:
 <<<<<<< HEAD
+<<<<<<< HEAD
       file:
+=======
+      file: 
+>>>>>>> origin/master
 =======
       file: 
 >>>>>>> origin/master
