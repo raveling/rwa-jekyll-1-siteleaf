@@ -3,7 +3,7 @@ title: RWA 1
 timezone: UTC
 collections:
   gallery:
-    title: Galleries
+    title: Gallery
     output: false
     gallery_images:
     - file: 
