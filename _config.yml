@@ -24,7 +24,11 @@ collections:
     output: true
   images:
     title: images
-    output: true
+    output: false
+    image:
+      file: 
+      caption: 
+      class: 
 defaults:
 - scope:
     path: ''
