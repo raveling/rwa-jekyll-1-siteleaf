@@ -23,8 +23,4 @@ gallery:
     caption: frank sex caption
 ---
 
-<<<<<<< HEAD
-The gallery text. The gallery text. The gallery text. The gallery text. The gallery text. The gallery text.
-=======
 Foo. The gallery text. The gallery text. The gallery text. The gallery text. The gallery text. The gallery text.
->>>>>>> origin/master

@@ -4,9 +4,8 @@ layout: default
 
 {% assign testimony = site.testimonials | where: "object-name", page.testifier  | first %}
 
-{% comment%}
-{% assign featured-gallery = site.galleries | where: "object-name", page.testifier  | first %}
-{% endcomment%}
+{% assign featured-gallery = site.galleries | where: "title", page.gallery | first %}
+
 
 <p>this is the <strong>project</strong> layout</p>
 <header>
@@ -31,5 +30,22 @@ layout: default
 </figure>
 
 <p>the gallery associated with this <strong>project</strong> is: <strong>{{page.gallery}}</strong></p>
+
+<p>Featured-Gallery-Content Below: <em>{{ featured-gallery.content }}</em></p>
+
+{% comment %}
+<h2>Default Post List </h2>
+	<ul>
+		{% for post in site.posts %}
+			<li>
+				<span>{{ post.date | date: "%b %-d, %Y" }}</span>
+				<h2>
+					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				</h2>
+			</li>
+		{% endfor %}
+{% endcomment %}
+
+<img src="{{site.url}}{{ featured-gallery.gallery.image_1.file }}" alt=""></img>
 
 <p>the testimonial associated with this <strong>project</strong> is: <strong>{{testimony.title}}</strong></p>
