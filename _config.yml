@@ -73,7 +73,7 @@ defaults:
     type: testimonials
   values:
     portrait-image:
-    testifier-url: 
+    testifier-url:
 - scope:
     path: ''
     type: projects
