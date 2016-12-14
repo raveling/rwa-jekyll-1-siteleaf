@@ -45,8 +45,18 @@ defaults:
     type: gallery
   values:
     gallery:
-      file:
-      caption:
+      file_1:
+      caption_1:
+      file_2:
+      caption_2:
+      file_3:
+      caption_3:
+      file_4:
+      caption_4:
+      file_5:
+      caption_5:
+      file_6:
+      caption_6:
 - scope:
     path: ''
     type: images
