@@ -1,5 +1,5 @@
 ---
-title: Gallery 1
+title: Del Boca Vista Gallery
 date: 2016-12-12 06:48:00 Z
 gallery:
   image_1:
