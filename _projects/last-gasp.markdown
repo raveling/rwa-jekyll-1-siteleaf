@@ -11,7 +11,7 @@ collection: projects
 object-name: last-gasp
 ---
 
-Food is great for your bowelz
+Food is great for your bowelz. Scooby Dooby.
 
 The Last Gasp Project Content. The Last Gasp Project Content.The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content. The Last Gasp Project Content.
 
