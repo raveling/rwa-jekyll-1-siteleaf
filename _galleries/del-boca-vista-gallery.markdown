@@ -22,4 +22,4 @@ gallery:
     caption: frank sex caption
 ---
 
-The gallery text. The gallery text. The gallery text. The gallery text. The gallery text. The gallery text.
+Foo. The gallery text. The gallery text. The gallery text. The gallery text. The gallery text. The gallery text.
