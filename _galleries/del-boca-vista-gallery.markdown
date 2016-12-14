@@ -1,6 +1,7 @@
 ---
 title: Del Boca Vista Gallery
 date: 2016-12-12 06:48:00 Z
+collection: galleries
 gallery:
   image_1:
     file: "/uploads/frank-costanza_1.jpg"
