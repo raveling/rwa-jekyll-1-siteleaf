@@ -54,7 +54,13 @@ defaults:
       image_3:
         file:
         caption:
-      image_4: 
+      image_4:
+        file:
+        caption:
+      image_5:
+        file:
+        caption:
+      image_6: 
         file:
         caption:
 - scope:
