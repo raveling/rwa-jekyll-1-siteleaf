@@ -4,6 +4,10 @@ layout: default
 
 {% assign testimony = site.testimonials | where: "object-name", page.testifier  | first %}
 
+{% comment%}
+{% assign featured-gallery = site.galleries | where: "object-name", page.testifier  | first %}
+{% endcomment%}
+
 <p>this is the <strong>project</strong> layout</p>
 <header>
 	<h1>{{ page.title }}<span><a href="{{ page.site-url }}"> (view site)</a></span></h1>
@@ -26,4 +30,6 @@ layout: default
 	<figcaption><a href="{{ testimony.testifier-url }}">{{ testimony.title }}</a></figcaption>
 </figure>
 
-<p>the page gallery associated with this <strong>project</strong> is: <strong>{{page.gallery}}</strong></p>
+<p>the gallery associated with this <strong>project</strong> is: <strong>{{page.gallery}}</strong></p>
+
+<p>the testimonial associated with this <strong>project</strong> is: <strong>{{testimony.title}}</strong></p>
