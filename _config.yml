@@ -6,9 +6,9 @@ collections:
     title: Custom-Images
     output: true
     image:
-      file: 
-      caption: 
-      class: 
+      file:
+      caption:
+      class:
   galleries:
     title: Galleries
     output: true
@@ -45,47 +45,47 @@ defaults:
     layout: gallery
     gallery:
       image_1:
-        file: 
-        caption: 
+        file:
+        caption:
       image_2:
-        file: 
-        caption: 
+        file:
+        caption:
       image_3:
-        file: 
-        caption: 
+        file:
+        caption:
       image_4:
-        file: 
-        caption: 
+        file:
+        caption:
       image_5:
-        file: 
-        caption: 
+        file:
+        caption:
       image_6:
-        file: 
-        caption: 
+        file:
+        caption:
 - scope:
     path: ''
     type: images
   values:
     image:
-      file: 
-      caption: 
-      class: 
+      file:
+      caption:
+      class:
 - scope:
     path: ''
     type: testimonials
   values:
-    portrait-image: 
-    testifier-url: 
+    portrait-image:
+    testifier-url:
 - scope:
     path: ''
     type: projects
   values:
-    featured-image: 
-    featured: 
+    featured-image:
+    featured:
     listing-priority: 2
-    site-url: 
-    testifier: 
-    gallery: 
+    site-url:
+    testifier:
+    gallery:
 email: your-email@domain.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
@@ -93,7 +93,7 @@ description: 'Write an awesome description for your new site here. You can edit 
 
 '
 baseurl: ''
-url: http://yourdomain.com
+url: https://584dbd58ed2f167188ccc9d2.preview.siteleaf.com/
 twitter_username: ronald @ twitter
 github_username: ronald @ github
 markdown: kramdown
