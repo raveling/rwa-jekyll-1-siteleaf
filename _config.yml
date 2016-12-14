@@ -4,10 +4,7 @@ timezone: UTC
 collections:
   gallery:
     title: Gallery
-    output: false
-    gallery_images:
-    - file: 
-      caption: 
+    output: true
   posts:
     title: Posts
     output: true
