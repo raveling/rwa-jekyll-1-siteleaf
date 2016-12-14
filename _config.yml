@@ -6,9 +6,9 @@ collections:
     title: Custom-Images
     output: true
     image:
-      file:
-      caption:
-      class:
+      file: 
+      caption: 
+      class: 
   gallery:
     title: Gallery
     output: true
@@ -23,9 +23,6 @@ collections:
     title: Testimonials
     output: true
     permalink: "/testimonials/:path/"
-    gallery:
-    portrait-image:
-    testifier-url:
   uploads:
     title: Uploads
     output: true
@@ -46,31 +43,31 @@ defaults:
   values:
     gallery:
       image_1:
-        file:
-        caption:
+        file: 
+        caption: 
       image_2:
-        file:
-        caption:
+        file: 
+        caption: 
       image_3:
-        file:
-        caption:
+        file: 
+        caption: 
       image_4:
-        file:
-        caption:
+        file: 
+        caption: 
       image_5:
-        file:
-        caption:
+        file: 
+        caption: 
       image_6:
-        file:
-        caption:
+        file: 
+        caption: 
 - scope:
     path: ''
     type: images
   values:
     image:
-      file:
-      caption:
-      class:
+      file: 
+      caption: 
+      class: 
 email: your-email@domain.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
