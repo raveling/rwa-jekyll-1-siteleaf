@@ -24,6 +24,8 @@ collections:
     output: true
     permalink: "/testimonials/:path/"
     gallery:
+    portrait-image:
+    testifier-url:
   uploads:
     title: Uploads
     output: true
