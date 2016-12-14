@@ -4,7 +4,7 @@ timezone: UTC
 collections:
   images:
     title: Custom-Images
-    output: false
+    output: true
     image:
       file: 
       caption: 
