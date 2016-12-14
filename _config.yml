@@ -9,8 +9,8 @@ collections:
       file: 
       caption: 
       class: 
-  gallery:
-    title: Gallery
+  galleries:
+    title: Galleries
     output: true
   posts:
     title: Posts
