@@ -6,8 +6,8 @@ collections:
     title: Gallery
     output: false
     gallery_images:
-    - file:
-      caption:
+    - file: 
+      caption: 
   posts:
     title: Posts
     output: true
@@ -26,9 +26,9 @@ collections:
     title: images
     output: false
     image:
-      file:
-      caption:
-      class:
+      file: 
+      caption: 
+      class: 
 defaults:
 - scope:
     path: ''
@@ -46,12 +46,13 @@ defaults:
   values:
     gallery:
       image_1:
-        file:
-        caption:
+        file: 
+        caption: 
       image_2:
-        file:
-        caption:
+        file: 
+        caption: 
       image_3:
+<<<<<<< HEAD
         file:
         caption:
       image_4:
@@ -63,14 +64,21 @@ defaults:
       image_6: 
         file:
         caption:
+=======
+        file: 
+        caption: 
+      image_4:
+        file: 
+        caption: 
+>>>>>>> origin/master
 - scope:
     path: ''
     type: images
   values:
     image:
-      file:
-      caption:
-      class:
+      file: 
+      caption: 
+      class: 
 email: your-email@domain.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
