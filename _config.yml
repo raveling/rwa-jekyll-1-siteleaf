@@ -2,6 +2,13 @@
 title: RWA 1
 timezone: UTC
 collections:
+  images:
+    title: Custom-Images
+    output: false
+    image:
+      file: 
+      caption: 
+      class: 
   gallery:
     title: Gallery
     output: true
@@ -19,13 +26,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  images:
-    title: images
-    output: false
-    image:
-      file: 
-      caption: 
-      class: 
 defaults:
 - scope:
     path: ''
